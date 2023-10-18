@@ -25,14 +25,13 @@ Utilizaremos una serie de tecnologías para poder ejecutar la práctica:
 
 ![Captura4](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/12998229-1041-484c-98f0-6781e5f46982)
 
-- Por último configuraremos los puertos, seleccionaremos el servicio HTTP para poder abrir los puertos en este caso el puerto 80. En tipo de origen eseleccionamos personalizada y en origen 0.0.0.0/0 para que pueda reconocer que cualquier IP pueda conectarse a nuestro servidor. Cuidado con no poner el puerto 22 que es el que nos permite conectarnos por ssh al servidor.
+- Por último configuraremos los puertos, seleccionaremos el servicio HTTP para poder abrir los puertos en este caso el puerto 80. En tipo de origen eseleccionamos personalizada y en origen 0.0.0.0/0 para que pueda reconocer que cualquier IP pueda conectarse a nuestro servidor. Cuidado con no poner el puerto 22 que es el que nos permite conectarnos por ssh al servidor por lo tanto le daremos a agregar nueva regla de seguridad para configurar el puerto 80.
 
-![Captura5](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/a9f09af1-c232-4daa-86ab-888e404837bb)
+![Captura5](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/0e87ecfd-8e2e-4683-8e37-09c5ef5ab39b)
 
 - Habiendo configurado todo le daremos a lanzar instancia y ya se procederia a la creacion de la maquina/Servidor. Luedo le damos a ver todas las instancias y nos llevaria a ver que ya esrtaria creada.
 
 ![Captura6](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/975eb20b-81c3-4231-af93-81894433ed16)
-
 
 ## 2. Procederemos a iniciar el Servidor
 
@@ -40,7 +39,7 @@ Utilizaremos una serie de tecnologías para poder ejecutar la práctica:
 
 ![Captura7](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/3d62525f-417e-45f2-aa4b-3d0a4d4aab11)
 
-
+- Luego nos iremos a nuestro terminal e iremos hacia la carpeta donde tenemos las claves que nos hemos descargado anteriormente. Copiamos el comando que nos aparece (chmod...) y lo ejecutamos para cambiarle los permisos a las claves. Después copiaremos el comando (ssh -i....) que nos pone de ejemplo y lo ejecutamos, y ya estariamos dentro de nuestro servidor pos ssh. 
 
 
 
