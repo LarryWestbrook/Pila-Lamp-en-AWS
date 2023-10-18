@@ -1,6 +1,6 @@
 # Pila Lamp en AWS
 
-Utilizaremos una serie de tecnologías para poder ejecutr la práctica:
+Utilizaremos una serie de tecnologías para poder ejecutar la práctica:
 
 - SO Debian 12
 - Servidos Apache
