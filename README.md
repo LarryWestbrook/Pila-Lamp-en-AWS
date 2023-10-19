@@ -39,7 +39,7 @@ Utilizaremos una serie de tecnologías para poder ejecutar la práctica:
 
 ![Captura7](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/3d62525f-417e-45f2-aa4b-3d0a4d4aab11)
 
-- Luego nos iremos a nuestro terminal e iremos hacia la carpeta donde tenemos las claves que nos hemos descargado anteriormente. Copiamos el comando que nos aparece (chmod...) y lo ejecutamos para cambiarle los permisos a las claves. Después copiaremos el comando (ssh -i....) que nos pone de ejemplo y lo ejecutamos, y ya estariamos dentro de nuestro servidor pos ssh. 
+- Luego nos iremos a nuestro terminal e iremos hacia la carpeta donde tenemos las claves que nos hemos descargado anteriormente. Copiamos el comando que nos aparece (chmod...) y lo ejecutamos para cambiarle los permisos a las claves. Después copiaremos el comando (ssh -i....) que nos pone de ejemplo y lo ejecutamos, y ya estariamos dentro de nuestro servidor por ssh. 
 
 ![Captura8](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/d8da0bd0-8c84-4944-aef8-550bff3580e7)
 
