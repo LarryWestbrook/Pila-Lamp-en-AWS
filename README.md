@@ -121,15 +121,27 @@ Ahora intalaremos php y phpmydmin en el servidor una vez fuera de la base de dat
 
 ![Captura13](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/56384a3e-2c89-49b8-ad83-2f312060d48e)
 
-## 6. Configuraremos el archivo /etc/www/html
+## 6. Configuraremos el archivo /var/www/html
 
-Ahora descargaremos el archivo de nuetro repositorio GitHub, si no tenemos git instalado procederemos a instalarlo.
+1. Ahora descargaremos el archivo de nuetro repositorio GitHub, si no tenemos git instalado procederemos a instalarlo.
 
-`# apt install git`
+- `# apt install git`
 
-`git clone https://github.com/LarryWestbrook/Pila-Lamp-en-AWS.git`
+- `git clone https://github.com/LarryWestbrook/Pila-Lamp-en-AWS.git`
 
 ![Captura14](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/4fa812c4-94d0-4e56-9baa-6306fac5527f)
+
+2. Vamos hacia la carpeta src que hemos dejado en /home y ejecutamos el siguiente comando para copiar todo su contenido en /var/www/html
+
+- `cp -r * /var/www/html`
+
+![Captura15](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/e84d01f7-29c2-4a4c-b769-266f4d9800c1)
+
+3. Por ultimo accedemos a la web utilizando http://mi_ip_publica directamente en un navegador que la encontraremos en la instancia cuando le damos a conectar y la veremos en la pestaña conexion de la instancia ec2.
+
+![Captura16](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/3b2ad96d-2fc9-4be7-8d1b-7a75cec059af)
+
+
 
 
 
