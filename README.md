@@ -52,7 +52,9 @@ Utilizaremos una serie de tecnologías para poder ejecutar la práctica:
 - `# apt update`
 - `# apt upgrade -y`
 - `# apt install apache2 -y`
-  Utilizaremos el siguiente comando para ver si el servicio esta activo
+  
+  Utilizaremos el siguiente comando para ver si el servicio esta activo.
+  
 - `# systemctl status apache2`
 
 ![Captura10](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/5664b7da-0aa4-4a5d-9543-53aaf6e0dc0d)
