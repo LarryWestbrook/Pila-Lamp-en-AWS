@@ -123,9 +123,15 @@ Ahora intalaremos php y phpmydmin en el servidor una vez fuera de la base de dat
 
 ## 6. Configuraremos el archivo /etc/www/html
 
-Ahora descargaremos el archivo de nuetro repositorio GitHub
+Ahora descargaremos el archivo de nuetro repositorio GitHub, si no tenemos git instalado procederemos a instalarlo.
 
-git clone 
+`# apt install git`
+
+`git clone https://github.com/LarryWestbrook/Pila-Lamp-en-AWS.git`
+
+![Captura14](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/4fa812c4-94d0-4e56-9baa-6306fac5527f)
+
+
 
 
 
