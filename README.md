@@ -53,6 +53,10 @@ Utilizaremos una serie de tecnologías para poder ejecutar la práctica:
 - `# apt upgrade -y`
 - `# apt install apache2 -y`
   
+  También es necesario instalar las librerias de php
+  
+- `# apt install libapache2-mod-php php php-mysql`
+  
   Utilizaremos el siguiente comando para ver si el servicio esta activo.
   
 - `# systemctl status apache2`
