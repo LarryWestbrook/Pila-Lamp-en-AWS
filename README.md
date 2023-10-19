@@ -62,23 +62,23 @@ Utilizaremos una serie de tecnologías para poder ejecutar la práctica:
 
 ## 4. Instalamos MariaDB
 
-- `# apt install mariadb-server`
+`# apt install mariadb-server`
 
   Para acceder a MariaDB implementaremos el siguiente comando debido a que no tenemos contrasña podemos acceder a través del root.
 
-- `# mariadb -u root -p`
+`# mariadb -u root -p`
 
 1. Creamos la base de datos
 
-- `CREATE DATABASE lamp_db CHARSET utf8mb4;`
+`CREATE DATABASE lamp_db CHARSET utf8mb4;`
 
 2. Procedemos a entrar en la base de datos
 
--  `USE lamp_db;`
+`USE lamp_db;`
 
 3. Creamos la tabla
 
--   `CREATE TABLE users (
+`CREATE TABLE users (
 id int(11) NOT NULL auto_increment,
 name varchar(100) NOT NULL,
 age int(3) NOT NULL,
@@ -88,19 +88,21 @@ PRIMARY KEY (id)
 
 4. Creamos un usuario
 
--  `CREATE USER IF NOT EXISTS 'larry';` 
+  Podeis crear el usuario con el nombre que querais, en mi caso voy a poner mi propio nombre.
+
+`CREATE USER IF NOT EXISTS 'larry';` 
 
 5. Cambiamos la contraseña
 
-- `ALTER USER 'larry' IDENTIFIED BY 'larry'; `
+`ALTER USER 'larry' IDENTIFIED BY 'larry'; `
 
 6. Concederemos los privilegios
 
-- `GRANT ALL PRIVILEGES ON lamp_db.* TO 'larry';`ç
+`GRANT ALL PRIVILEGES ON lamp_db.* TO 'larry';`ç
 
  7. Actualizaremos los privilegios
 
-- `FLUSH PRIVILEGES;` 
+`FLUSH PRIVILEGES;` 
 
 ## 5. Intalaremos php y phpmyadmin
 
