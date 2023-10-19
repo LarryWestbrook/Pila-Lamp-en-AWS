@@ -123,7 +123,9 @@ Ahora intalaremos php y phpmydmin en el servidor una vez fuera de la base de dat
 
 ## 6. Configuraremos el archivo /etc/www/html
 
+Ahora descargaremos el archivo de nuetro repositorio GitHub
 
+git clone 
 
 
 
