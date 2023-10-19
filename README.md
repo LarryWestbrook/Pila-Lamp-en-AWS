@@ -49,11 +49,24 @@ Utilizaremos una serie de tecnologías para poder ejecutar la práctica:
 
 ## 3. Procederemos a instalar apache
 
-'apt update'
+- `# apt update`
+- `# apt upgrade -y`
+- `# apt install apache2 -y`
+  Utilizaremos el siguiente comando para ver si el servicio esta activo
+- `# systemctl status apache2`
+
+![Captura10](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/5664b7da-0aa4-4a5d-9543-53aaf6e0dc0d)
 
 
+## 4. Instalamos MariaDB
 
+- `# apt install mariadb-server`
 
+  Para acceder a MariaDB implementaremos el siguiente comando debido a que no tenemos contrasña podemos acceder a través del root.
+
+- `# mariadb -u root -p`
+
+  
 
 
 
