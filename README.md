@@ -146,12 +146,15 @@ Ahora intalaremos php y phpmydmin en el servidor una vez fuera de la base de dat
 ![Captura16](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/3b2ad96d-2fc9-4be7-8d1b-7a75cec059af)
 
 
+![captura17](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/cb6a4c9e-2238-4a3c-96c8-92a96c7538ce)
+
+
 
 ## 6. PHP my admin
 
 Podemos añadir a la ip publica en el navegador http://mi_ip_publica/phpmyadmin accederemos a la Base de Datos que hemos creado con la contraseña y el usuario que hemos creado en MariaDB. 
 
-![Captura17](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/072184ea-81d4-40cd-b85e-11c5902c2e5e)
+![Captura18](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/072184ea-81d4-40cd-b85e-11c5902c2e5e)
 
 
 
