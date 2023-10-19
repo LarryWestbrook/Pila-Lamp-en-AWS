@@ -98,13 +98,32 @@ PRIMARY KEY (id)
 
 6. Concederemos los privilegios
 
-`GRANT ALL PRIVILEGES ON lamp_db.* TO 'larry';`ç
+`GRANT ALL PRIVILEGES ON lamp_db.* TO 'larry';`
 
  7. Actualizaremos los privilegios
 
 `FLUSH PRIVILEGES;` 
 
 ## 5. Intalaremos php y phpmyadmin
+
+Ahora intalaremos php y phpmydmin en el servidor una vez fuera de la base de datos (para salir de la BD ponemos el comando quit)
+
+- `# apt install php -y`
+- `# apt install phpmyadmin -y`
+
+1. Elegiremos las dos opciones que nos propone dandole al espacio y luego intro
+
+![Captura11](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/5e51bbfc-65d8-4a29-b9e3-56c32530fa1e)
+
+2. Añadimos una contraseña y la confirmamos luego.
+
+![captura12](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/a9034855-5e11-4ae7-8e73-61258f524a8c)
+
+![Captura13](https://github.com/LarryWestbrook/Pila-Lamp-en-AWS/assets/114906861/56384a3e-2c89-49b8-ad83-2f312060d48e)
+
+## 6. Configuraremos el archivo /etc/www/html
+
+
 
 
 
