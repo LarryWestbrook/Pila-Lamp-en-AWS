@@ -47,7 +47,9 @@ Utilizaremos una serie de tecnologías para poder ejecutar la práctica:
 
 - Ya estariamos dentro de la instancia que hemos creado.
 
-## 3.
+## 3. Procederemos a instalar apache
+
+'apt update'
 
 
 
