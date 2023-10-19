@@ -68,15 +68,15 @@ Utilizaremos una serie de tecnologías para poder ejecutar la práctica:
 
 - `# mariadb -u root -p`
 
-  1. Creamos la base de datos
+1. Creamos la base de datos
 
 - `CREATE DATABASE lamp_db CHARSET utf8mb4;`
 
-  2. Procedemos a entrar en la base de datos
+2. Procedemos a entrar en la base de datos
 
 -  `USE lamp_db;`
 
-  3. Creamos la tabla
+3. Creamos la tabla
 
 -   `CREATE TABLE users (
 id int(11) NOT NULL auto_increment,
@@ -86,15 +86,15 @@ email varchar(100) NOT NULL,
 PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;`
 
- 4. Creamos un usuario
+4. Creamos un usuario
 
 -  `CREATE USER IF NOT EXISTS 'larry';` 
 
- 5. Cambiamos la contraseña
+5. Cambiamos la contraseña
 
 - `ALTER USER 'larry' IDENTIFIED BY 'larry'; `
 
- 6. Concederemos los privilegios
+6. Concederemos los privilegios
 
 - `GRANT ALL PRIVILEGES ON lamp_db.* TO 'larry';`ç
 
