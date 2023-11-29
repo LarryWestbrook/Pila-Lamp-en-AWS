@@ -72,7 +72,7 @@ mariadb -u root <<< "CREATE DATABASE $DB_NAME;"
 # Nos aseguramos que no existe el usuario
 mariadb -u root <<< "DROP USER IF EXISTS $DB_USER@localhost;"
 # Creamos el usuario para Wordpress
-mariadb-u root <<< "CREATE USER $DB_USER@localhost IDENTIFIED BY '$DB_PASSWORD';"
+mariadb -u root <<< "CREATE USER $DB_USER@localhost IDENTIFIED BY '$DB_PASSWORD';"
 # Concedemos privilegios al usuario que acabamos de crear
 mariadb -u root <<< "GRANT ALL PRIVILEGES ON $DB_NAME.* TO $DB_USER@localhost;"
 # Aplicamos cambios
