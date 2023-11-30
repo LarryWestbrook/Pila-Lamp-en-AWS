@@ -1,4 +1,5 @@
 #!/bin/bash
+# Este es un script que levanta la interfaz gráfica de Wordpress
 
 # ####################################
 # ## CONFIGURACIÓN DE LAS VARIABLES ##
