@@ -5,7 +5,7 @@ Utilizaremos una serie de tecnologías para poder ejecutar la práctica:
 - SO Debian 12
 - Servidos Apache
 - Php
-- Basede de datos MaiaDB
+- Base de datos MaiaDB
 
 ## 1. Desplegamos un servidor en AWS
 
