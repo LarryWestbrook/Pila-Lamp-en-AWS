@@ -45,7 +45,7 @@ apt install phpmyadmin -y
 apt install git -y
 
 # Clone your PHP project (assuming it's a valid git repository)
-git clone https://github.com/Scosrom/php-MariaDB-Apache2.git 
+git clone https://github.com/LarryWestbrook/Pila-Lamp-en-AWS.git 
 
-cp -r php-MariaDB-Apache2/src/* /var/www/html
+cp -r Pila-Lamp-en-AWS/src/* /var/www/html
 #rm -r php-MariaDB-Apache2
