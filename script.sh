@@ -1,9 +1,9 @@
-# Script para la Implantacion:
+# Script para la Implantacion de la Pila Lamp:
 #!/bin/bash
 
 # Install figlet
 apt install figlet -y
-figlet " Pila Lan"
+figlet " Pila Lamp"
 
 # Update and upgrade
 apt update
@@ -29,9 +29,9 @@ CREATE TABLE IF NOT EXISTS users (
   email varchar(100) NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-CREATE USER IF NOT EXISTS 'lamp_user'@'%';
-ALTER USER 'lamp_user'@'%' IDENTIFIED BY 'lamp_password';
-GRANT ALL PRIVILEGES ON lamp_db.* TO 'lamp_user'@'%';
+CREATE USER IF NOT EXISTS 'larry';
+ALTER USER 'larry' IDENTIFIED BY 'larry';
+GRANT ALL PRIVILEGES ON lamp_db.* TO 'larry';
 FLUSH PRIVILEGES;
 myscript
 
